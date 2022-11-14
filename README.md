@@ -1,12 +1,64 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/1200px-Vue.js_Logo_2.svg.png" width="100"></a></p>
+
+# CGPA
+
+## 🚀 About Me
+
+- 👋 Hi, I’m [@jishanhoshen](https://www.github.com/jishanhoshen)
+- 👀 I’m interested in Web Development.
+- 🌱 I’m currently learning REST API.
+- 💞️ I’m looking to collaborate on PHP
+- 📫 You can reach me by searching on google.(jishan hoshen jibon)
 
 
+## Run Locally
 
-## About Laravel
+To deploy this project run
 
-### Author
-- [Jishan Hoshen Jibon](https://github.com/jishanhoshen).
+Clone the Repo:
+
+```bash
+> git clone https://github.com/jishanhoshen/CGPA.git
+```
+```bash
+> cd CGPA
+```
+```bash
+> composer install
+```
+```bash
+> cp .env.example .env
+```
+Add your database information
+```bash
+> Set up .env file
+```
+Goto this dir and import this sql into your database
+```bash
+> resources/sql> ls
+database-[import this into your database].sql
+```
+
+```bash
+> php artisan key:generate
+```
+```bash
+> npm install
+```
+```bash
+> npm run dev
+```
+```bash
+> php artisan serve
+```
+Starting Laravel development server: [http://127.0.0.1:8000](http://127.0.0.1:8000)
 
 
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/jishanhoshen/CGPA/main/public/images/screenshort.png" width="400"></a></p>
+## Screenshots
+
+
+![App Screenshot](https://raw.githubusercontent.com/jishanhoshen/CGPA/main/public/images/screenshort.png)
+
+
+## Support
+
+For support, email jishanhoshenjibon@gmail.com
