@@ -1,6 +1,6 @@
 <?php
 
-use App\Models\CGPA;
+use App\Http\Controllers\AppController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,6 +15,8 @@ use Illuminate\Support\Facades\Route;
 */
 
 
-Route::get('/', function () {
-    return view('app');
-});
+
+Route::get('/', [AppController::class, 'index']);
+
+Route::get('/generator', [AppController::class, 'generator']);
+

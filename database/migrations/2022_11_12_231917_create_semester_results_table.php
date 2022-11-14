@@ -18,7 +18,7 @@ class CreateSemesterResultsTable extends Migration
             $table->timestamps();
             $table->integer('exam_id');
             $table->integer('student_id');
-            $table->integer('gpa');
+            $table->float('gpa');
             $table->integer('status');
         });
     }

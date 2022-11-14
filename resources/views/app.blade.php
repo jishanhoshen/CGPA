@@ -10,7 +10,7 @@
 
 <body class="antialiased">
     <div id="app">
-        <header-component></header-component>
+        <App></App>
     </div>
     <script src="{{ mix('/js/app.js') }}"></script>
 </body>
