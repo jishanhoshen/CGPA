@@ -29,9 +29,8 @@ Clone the Repo:
 > cp .env.example .env
 ```
 Add your database information
-```bash
-> Set up .env file
-```
+Set up .env file
+
 Goto this dir and import this sql into your database
 ```bash
 > resources/sql> ls
